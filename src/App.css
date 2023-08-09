@@ -1,0 +1,13 @@
+header{
+  border-bottom: 2px solid hsl(223, 64%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+@media screen and (max-width: 992px){
+  header{
+    height: 70px;
+    background: white;
+  }
+}

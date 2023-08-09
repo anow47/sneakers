@@ -1,0 +1,82 @@
+.carousel{
+    width: 100%;
+}
+.carousel .mini-img{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.carousel .mini-img:hover{
+    opacity: 0.3;
+}
+.carousel .img-container{
+    border: 2px solid transparent;
+    border-radius: 18px;
+    width: 90px;
+    height: 90px;
+    transition: .2s ease;
+}
+.carousel .img-container:hover{
+    border: 2px solid var(--bg-color);
+}
+.closeIcon{
+    width: 20px;
+    padding-left: 380px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.popupImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.arrows{
+    position: absolute;
+    top: 260px;
+    display: flex;
+    gap: 360px;
+}
+.arrow-container{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-container:hover{
+    .next, .previous{
+        stroke: var(--bg-color)
+    }
+}
+.mini{
+    z-index: 2;
+    color: #fff;
+}
+.popup .carousel {
+    width: 380px;
+    margin-top: 1rem;
+}
+.popup .carousel .img-container .mini-img{
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.popup .carousel .img-container{
+    width: 70px;
+    height: 70px;
+}

@@ -1,8 +1,8 @@
 {
+  "homepage": "https://github.com/anow47/sneakers",
   "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/anow47/sneakers",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
